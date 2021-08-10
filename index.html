@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="utf-8" />
+		<base target="_blank" />  <!-- base标签：base可以让链接以新的窗口打开 -->
+		<title>my navigation</title>
+		<link href="css/index.css" rel="stylesheet">
+	</head>
+	<body class="mybody">
+	<div class="main">
+		<div class="search-box" >
+			<ul class="search-list">
+				<li class="active" onclick="this.className=bsearch(this.id)" id="0">百度</li>
+				<li class onclick="this.className=bsearch(this.id)" id="1">知乎</li>
+				<li class onclick="this.className=bsearch(this.id)" id="2">google</li>
+				<li class onclick="this.className=bsearch(this.id)" id="3">CSDN</li>
+				<li class onclick="this.className=bsearch(this.id)" id="4">Github</li>
+			</ul>
+			<input type:text placeholder="输入并搜索..." onKeyDown="search()" class="search-input" id="txt"/>
+		</div>
+		<div class="mylist">
+			<ul class="flex-list">
+				<li class="item"  >
+					<a href="https://www.bilibili.com/" target="_blank">
+						<div class="img-box">
+							<img src="./image/bilibili.webp" alt="bilibili" />
+						</div>
+						<p class="name">Bilibili</p>
+					</a>
+				</li>
+				<li class="item"  >
+					<a href="https://leetcode-cn.com/">
+						<div class="img-box">
+							<img src="./image/likou.webp" alt="力扣"/>
+						</div>
+						<p class="name">力扣</p>
+					</a>
+				</li>
+				<li class="item"  >
+					<a href="https://outlook.live.com/">
+						<div class="img-box">
+							<img src="./image/outlook.webp" alt="Outlook"/>
+						</div>
+						<p class="name">Outlook</p>
+					</a>
+				</li>
+				<li class="item"  >
+					<a href="https://www.youtube.com/">
+						<div class="img-box">
+							<img src="./image/youtube.webp" alt="YoTube"/>
+						</div>
+						<p class="name">YouTube</p>
+					</a>
+				</li>
+				<li class="item"  >
+					<a href="https://www.aliyun.com/">
+						<div class="img-box">
+							<img src="./image/aliyun.jpg" alt="阿里云"/>
+						</div>
+						<p class="name">阿里云</p>
+					</a>
+				</li>
+				<li class="item"  >
+					<a href="https://cli.im/">
+						<div class="img-box">
+							<img src="./image/caoliao.webp" alt="草料二维码"/>
+						</div>
+						<p class="name">草料二维码</p>
+					</a>
+				</li>
+				<li class="item"  >
+					<a href="https://xxjc.vip/auth/register">
+						<div class="img-box">
+							<img src="./image/xxjc.webp" alt="小小机场"/>
+						</div>
+						<p class="name">小小机场</p>
+					</a>
+				</li>
+				<li class="item"  >
+					<a href="https://www.reddit.com/">
+						<div class="img-box">
+							<img src="./image/reddit.webp" alt="reddit"/>
+						</div>
+						<p class="name">Reddit</p>
+					</a>
+				</li>
+				<li class="item"  >
+					<a href="https://www.quora.com/">
+						<div class="img-box">
+							<img src="./image/quora.webp" alt="Quora"/>
+						</div>
+						<p class="name">Quora</p>
+					</a>
+				</li>
+				<li class="item"  >
+					<a href="https://twitter.com/">
+						<div class="img-box">
+							<img src="./image/twitter.webp" alt="twitter"/>
+						</div>
+						<p class="name">Twitter</p>
+					</a>
+				</li>
+				<li class="item"  >
+					<a href="https://www.runoob.com/">
+						<div class="img-box">
+							<img src="./image/cai.jpg" alt="cainiao"/>
+						</div>
+						<p class="name">菜鸟教程</p>
+					</a>
+				</li>
+				<li class="item"  >
+					<a href="https://www.w3school.com.cn/">
+						<div class="img-box">
+							<img src="./image/w3.jpg" alt="W3school"/>
+						</div>
+						<p class="name">W3school</p>
+					</a>
+				</li>
+				<li class="item"  >
+					<a href="https://stackoverflow.com/">
+						<div class="img-box">
+							<img src="./image/stack.jpg" alt="stackoverflow"/>
+						</div>
+						<p class="stackoverflow">stackoverflow</p>
+					</a>
+				</li>
+				<li class="item"  >
+					<a href="http://www.hubwiz.com/">
+						<div class="img-box">
+							<img src="./image/hui.jpg" alt="汇智网"/>
+						</div>
+						<p class="name">汇智网</p>
+					</a>
+				</li>	
+			</ul>
+			
+		</div>
+	
+	<script src="./js/index.js" type="text/javascript"></script>		
+	</div>
+	
+	</body>
+</html>
+
+
+
